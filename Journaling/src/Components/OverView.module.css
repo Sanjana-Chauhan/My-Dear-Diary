@@ -1,0 +1,67 @@
+
+.OverView{
+    padding-left: 2rem;
+}
+.nav{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    padding-right: 1rem;
+}
+.nav span{
+    width: 7%;
+    padding: 0.7rem;
+    color:rgb(54, 51, 54);
+    background-color: rgb(146, 199, 255);
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.nav span:hover{
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px rgb(105, 168, 244);
+}
+.active{
+    background-color: rgb(73, 153, 250); ;
+    box-shadow: 0px 0px 7px rgb(105, 168, 244);
+    color: white;
+}
+.OverviewList{
+    width: 70%;
+    background-color: rgb(186, 218, 250);
+    list-style-type: none;
+    border-radius: 10px;
+}
+.ListItemHeaders{
+    display: flex;
+    align-items: center;
+}
+.ListItemHeaders span{
+    width: 30%;
+    padding: 0.7rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.ListItem span input{
+    margin-right: 0.5rem; 
+}
+.ListItem span{
+    display:inline-block;
+    width: 30%;
+    padding: 0.7rem;
+    padding-left: 1rem;  
+}
+.sideimg{
+    width: 30%;
+    text-align: center;
+}
+.sideimg img{
+    max-height: 15rem;
+    width: 70%;
+}
+.section{
+    display: flex;
+}

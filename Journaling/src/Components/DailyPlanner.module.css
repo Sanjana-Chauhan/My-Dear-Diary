@@ -1,17 +1,19 @@
 .DailyPlanner{
-    width: 50%;
+    width: 40%;
+    min-height: 90vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: url(../Images/Notebg.jpg);
-    min-height: 100vh;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    background: url(../Images/BlossomBg.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
 }
-.Heading{
-    /* width: 100%; */
-    font-size: 2rem;
+.Heading{ 
+    font-size: 3rem;
+    font-weight: bold;
     font-family:cursive;
-    color: var(--dark-blue);  
-    /* display: block; */
+    color: var(--dark-pink);  
 }

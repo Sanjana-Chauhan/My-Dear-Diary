@@ -13,7 +13,6 @@
 }
 .card{
     width: 20%;
-    background-color:var(--purple);
     padding: 0.7rem;
     border-radius: 10px;
 }

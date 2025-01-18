@@ -2,8 +2,8 @@ import styles from "./PlannerContainer.module.css";
 import Card from "./Card";
 import cardimg from "../Images/CardImg.png";
 import cardimg2 from "../Images/cardimg.jpg";
-import cardimg3 from "../Images/diet.png";
-import cardimg4 from "../Images/output.png";
+import cardimg3 from "../Images/journaling2.png";
+import cardimg4 from "../Images/BucketList.png";
 function PlannerContainer() {
   const Cards = [
     {
